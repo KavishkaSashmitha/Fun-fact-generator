@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Fun Fact Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fun Fact Generator</h1>
+        <div class="category-buttons">
+            <button class="category-btn" data-category="all">All Facts</button>
+            <button class="category-btn" data-category="nature">Nature</button>
+            <button class="category-btn" data-category="space">Space</button>
+            <button class="category-btn" data-category="history">History</button>
+        </div>
+        <button id="generateBtn" class="generate-btn">Generate Fun Fact!</button>
+        <div id="result" class="result-container">
+            <p id="factText"></p>
+            <span id="categoryTag" class="category-tag"></span>
+        </div>
+        <button id="shareBtn" class="share-btn">Share Fact</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
