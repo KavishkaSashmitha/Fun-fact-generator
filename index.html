@@ -217,8 +217,8 @@
             }
 
             async shareFact() {
-                const fact = this.factText.textContent;
-                if
+                const fact = this.fact
+                if (!fact) return;
 
                 try {
                     await navigator.clipboard.writeText(fact);
